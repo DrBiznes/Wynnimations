@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "wynnimations",
+  "version": "${version}",
+  "name": "Wynnimations",
+  "description": "Adds custom animations for Wynncraft",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/wynnimations/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.jamino.wynnimations.Wynnimations"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "notenoughanimations": "*"
+  }
+}
